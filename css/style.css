@@ -20,6 +20,10 @@ body {
     overflow-x: hidden;
 }
 
+.hidden {
+    display: none;
+}
+
 /*Шапка*/
 .header {
     margin-bottom: 70px;
@@ -377,4 +381,118 @@ span {
     font-size: 15px;
     line-height: 29px;
     color: rgba(255, 255, 255, 0.7);
+}
+
+/*Отзывы на курс*/
+.reviews {
+    margin-bottom: 200px;
+}
+
+.rewiews__container {
+    max-width: 1300px;
+    padding: 0px;
+    margin: 0px auto;
+}
+
+.rewiews__wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.rewiews__rew {
+    padding-left: 50px;
+    width: 423px;
+    height: 321px;
+    background: #000000;
+    border-radius: 32px;
+}
+
+.rewiews__img {
+    padding-top: 34px;
+    padding-bottom: 21px;
+}
+
+.rewiews__text {
+    max-width: 320px;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    color: var(--color-white);
+    padding-bottom: 20px;
+}
+
+.rewiews__name {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+/*Подвал*/
+
+.footer {
+    margin-bottom: 100px;
+}
+
+.footer__container {
+    max-width: 1300px;
+    padding: 0px;
+    margin: 0px auto;
+}
+
+.footer__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__social {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__social__name {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 27px;
+    color: var(--color-white);
+    padding-bottom: 21px;
+}
+
+.footer__social__content {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.footer__inform {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.footer__block__one {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    color: #FFFFFF;
+    padding-bottom: 10px;
+}
+
+.footer__block__two {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    color: #FFFFFF;
+    padding-bottom: 10px;
+}
+
+.footer__icons {
+    margin-right: 30px;
+}
+
+.footer__icons__media {
+    display: flex;
+    gap: 19px;
 }
