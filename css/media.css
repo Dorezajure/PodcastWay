@@ -1,0 +1,208 @@
+@media (max-width: 1350px) {
+    .header__logo {
+        padding-left: 20px;
+    }
+    .header__menu__link {
+        padding-right: 20px;
+    }
+    .desctop__photo {
+        padding-left: 20px;
+    }
+    .desctop__text__st {
+        padding-right: 10px;
+        font-size: 60px;
+        line-height: 78px;
+    }
+    .course__container {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .course__name__text {
+        font-size: 54px;
+        line-height: 69px;
+    }
+    .course__card__text {
+        font-size: 56px;
+        line-height: 65px;
+        letter-spacing: 2.5px;
+    }
+    .couese__card__title {
+        font-size: 20px;
+    }
+    .course__card__content {
+        max-width: 610px;
+    }
+    .teacher {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .teacher__content {
+        padding-right: 15px
+    }
+    .teacher__content__info {
+        font-size: 16px;
+        padding-bottom: 8px;
+    }
+    .teacher__content__text {
+        font-size: 58px;
+        line-height: 69px;
+        padding-bottom: 20px;
+    }
+    .teacher__content__title {
+        gap: 20px;
+        font-size: 20px;
+        line-height: 35px;
+    }
+    .mail__link {
+        padding-bottom: 50px;
+    }
+    .mail__text {
+        font-size: 44px;
+        line-height: 45px;
+        letter-spacing: 1.8px;
+    }
+    .mail__infoblock__name {
+        font-size: 20px;
+        height: 70px;
+        max-width: 322px;
+    }
+    .mail__infoblock__email {
+        font-size: 20px;
+        height: 70px;
+        max-width: 322px;
+    }
+    .footer {
+        margin-left: 30px;
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .desctop__text__st {
+        padding-right: 30px;
+    }
+    .course__name__text {
+        font-size: 48px;
+        line-height: 59px;
+    }
+    .course__card__content {
+        max-width: 500px;
+    }
+    .course__card__text {
+        font-size: 45px;
+        line-height: 45px;
+    }
+    .course__card__title {
+        font-size: 18px;
+        line-height: 30px;
+        padding-bottom: 30px;
+    }
+    .teacher__content__next {
+        width: 100px;
+        height: 100px;
+    }
+    .teacher__content__text {
+        font-size: 54px;
+        line-height: 59px;
+    }
+    .mail__infoblock__email {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header__logo {
+        font-size: 28px;
+        line-height: 22px;
+    }
+    .header__menu__link__a {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .desctop__text__st {
+        font-size: 45px;
+        line-height: 50px;
+    }
+    .desctop__social__text {
+        font-size: 14px;
+    }
+    .course__name__text {
+        font-size: 38px;
+    }
+    .course__btn {
+        width: 154px;
+        font-size: 16px;
+    }
+    .course__card__content {
+        max-width: 350px;
+    }
+    .course__card__format {
+        max-width: 156px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        margin-bottom: 20px;
+    }
+    .course__card__format__text {
+        font-size: 16px;
+    }
+    .course__card__pount {
+        font-size: 16px;
+        padding-bottom: 15px;
+    }
+    .course__card__text {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .course__card__title {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .course__card__btn {
+        max-width: 156px;
+        font-size: 16px;
+    }
+    .teacher__content__next {
+        width: 80px;
+        height: 80px;
+    }
+    .teacher__content__text {
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .teacher__content__title {
+        gap: 10px;
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .mail {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .mail__wrapper {
+        height: 341px;
+        padding-left: 35px;
+    }
+    .mail__content {
+        padding-right: 10px;
+    }
+    .mail__link {
+        padding-bottom: 30px;
+        font-size: 16px;
+    }
+    .mail__text {
+        width: 410px;
+        font-size: 38px;
+        line-height: 40px;
+        letter-spacing: 1.8px;
+    }
+    .mail__infoblock__name {
+        font-size: 16px;
+        height: 50px;
+        max-width: 250px;
+    }
+    .mail__infoblock__email {
+        font-size: 16px;
+        height: 50px;
+        max-width: 250px;
+    }
+}
